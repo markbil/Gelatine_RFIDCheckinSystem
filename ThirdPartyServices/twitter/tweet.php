@@ -26,10 +26,10 @@ require 'tmhUtilities.php';
 function tweetFromCoffeeMachine($message)
 {
 	$tmhOAuth = new tmhOAuth(array(
-	  'consumer_key'    => 'yBqPMCfmM59Rbglvz1Ulaw',
-	  'consumer_secret' => 'emXtf7PDoYURANce1RqRE2FaZpgJeaQixRlCafpQ0',
-	  'user_token'      => '576073937-gZokaOQgJwY3U64frIV1MkzHfnelx3XvxMC2FHOM',
-	  'user_secret'     => 'ursK27EZa2nZliVBBFdfEjpiTwMkqdQoqpnTZG07Sgc',
+	  'consumer_key'    => 'xx',
+	  'consumer_secret' => 'xx',
+	  'user_token'      => 'xx-xx',
+	  'user_secret'     => 'xx',
 	));
 
 	$code = $tmhOAuth->request('POST', $tmhOAuth->url('1/statuses/update'), array(
